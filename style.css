@@ -11,11 +11,12 @@ body {
 Header {
     border-bottom: 2px solid lightgray;
     padding: 10px 10px 0 10px;
+    margin-bottom: 50px;
 }
 
 .container {
-    width: 80%;
-    margin: 20px auto;
+    width: 70%;
+    margin: 0 auto;
     border: px solid black;
     overflow: auto;
 }
@@ -44,4 +45,8 @@ ul li:last-child {
     border-bottom: 4px solid hotpink;
     position: relative;
     padding-bottom: 2px;
+}
+
+h2 {
+    margin: 20px 0;
 }

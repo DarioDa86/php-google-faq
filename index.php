@@ -75,7 +75,10 @@
         </Header>
 
         <div class="container">
-
+        <?php foreach($faqs as $dati) { ?>
+            <h2> <?= "{$dati["domanda"]}"; ?> </h2>
+            <p class=""> <?= "{$dati["risposta"]}"; ?></p>
+        <?php } ?>
         </div>
     </body>
 </html>
