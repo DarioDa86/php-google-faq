@@ -10,15 +10,16 @@ body {
 
 Header {
     border-bottom: 2px solid lightgray;
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 0 20px;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .container {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     border: px solid black;
-    overflow: auto;
+
 }
 
 .g-logo {
@@ -33,20 +34,46 @@ ul {
     display: flex;
 }
 
-ul li {
+nav>ul>li {
     margin-right: 20px;
     list-style: none;
     font-weight: 600;
     color: grey;
+    padding-bottom: 10px;
 }
 
-ul li:last-child {
-    color: hotpink;
-    border-bottom: 4px solid hotpink;
-    position: relative;
-    padding-bottom: 2px;
+ul>li:last-child {
+    color: #5580dc;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #5580dc;
 }
 
-h2 {
+/* ul li:last-child::before {
+    bottom: 5px;
+} */
+
+.domande {
     margin: 20px 0;
+    font-weight: 600;
+}
+
+.risposte {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+ol li {
+    /* padding-left: 10px; */
+    font-size: 14px;
+    line-height: 22px;
+    list-style-position: inside;
+}
+
+ol li ol li {
+    list-style-type: lower-alpha;
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 22px;
+    list-style-position: inside;
 }
