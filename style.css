@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+Header {
+    border-bottom: 2px solid lightgray;
+    padding: 10px 10px 0 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    border: px solid black;
+    overflow: auto;
+}
+
+.g-logo {
+    width: 100px;
+}
+
+.g-logo img {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+    list-style: none;
+    font-weight: 600;
+    color: grey;
+}
+
+ul li:last-child {
+    color: hotpink;
+    border-bottom: 4px solid hotpink;
+    position: relative;
+    padding-bottom: 2px;
+}
